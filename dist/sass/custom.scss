@@ -1,0 +1,28 @@
+$primary: #1dd900;
+$danger: #ff3636;
+
+$font-family-sans-serif:'Barlow Semi Condensed', sans-serif;
+
+@media(min-width: 992px){
+    .alto-100{
+        height:100vh;
+    }
+}
+
+.fondo-card{
+    background-image: url('images/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-position: 90% top;
+}
+
+$container-max-widths: (
+    sm:540px,
+    md:720px,
+    lg:960px,
+    xl:960px,
+    xxl:960px,
+
+
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
